@@ -3,7 +3,7 @@
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
     id="com.solutionists.honeywell.captuvo"
     version="0.1">
-    <name>CaptuvoCDV</name>
+    <name>CaptuvoIonic</name>
     <description>Honeywell Captuvo Cordova plugin</description>
     <license>MIT</license>
     <keywords>captuvo,magstripe,msr,barcode</keywords>
