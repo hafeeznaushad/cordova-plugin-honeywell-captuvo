@@ -7,7 +7,7 @@
     <description>Honeywell Captuvo Cordova plugin</description>
     <license>MIT</license>
     <keywords>captuvo,magstripe,msr,barcode</keywords>
-    <repo>ttps://github.com/hafeeznaushad/cordova-plugin-honeywell-captuvo.git</repo>
+    <repo>https://github.com/BlueFletch/cordova-plugin-honeywell-captuvo.git</repo>
     <issue></issue>
     
     <js-module src="www/CaptuvoCDV.js" name="CaptuvoCDV">
