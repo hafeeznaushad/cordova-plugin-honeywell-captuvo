@@ -46,13 +46,13 @@
 
 -(void)captuvoConnected{
     NSLog(@"Captuvo connected");
-    [self.commandDelegate evalJs:@"captuvo.captuvoConnected();"];
+    [self.commandDelegate evalJs:@"window['captuvo'].captuvoConnected();"];
     [self onDidBecomeActive];
 }
 
 -(void)captuvoDisconnected{
     NSLog(@"Captuvo disconnected");
-    [self.commandDelegate evalJs:@"captuvo.captuvoDisconnected();"];
+    [self.commandDelegate evalJs:@"window['captuvo'].captuvoDisconnected();"];
 }
 
 - (void) decoderDataReceived:(NSString*)data {
@@ -93,7 +93,7 @@
 }
 - (void)decoderReady{
     NSLog(@"Captuvo Decoder Ready");
-    [self.commandDelegate evalJs:@"captuvo.decoderReady();"];
+    [self.commandDelegate evalJs:@"window['captuvo'].decoderReady();"];
 }
 
 /**
@@ -143,7 +143,7 @@
 }
 -(void)msrReady{
     NSLog(@"Captuvo Magstripe Reader Ready");
-    [self.commandDelegate evalJs:@"captuvo.msrReady();"];
+    [self.commandDelegate evalJs:@"window['captuvo'].msrReady();"];
 }
 
 //Battery
